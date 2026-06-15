@@ -61,7 +61,7 @@ function App() {
     >
       <div className="min-h-screen bg-slate-100 py-10">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="flex gap-6">
+          <div className="flex flex-col md:flex-row gap-6">
             <Sidebar
               selectedDay={selectedDay}
               setSelectedDay={setSelectedDay}

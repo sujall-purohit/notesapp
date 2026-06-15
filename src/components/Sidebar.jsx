@@ -13,12 +13,26 @@ function Sidebar({ selectedDay, setSelectedDay }) {
     ];
 
     return (
-        <div className="w-64 bg-white rounded-2xl p-5 shadow-md">
-            <h1 className="text-2xl font-bold mb-8">
-                📝 NoteFlow
+        <div className="
+    w-full
+    md:w-64
+    bg-white
+    rounded-2xl
+    p-5
+    shadow-md
+">
+            <h1 className="text-2xl md:text-4xl font-bold">
+                NoteFlow
             </h1>
 
-            <div className="flex flex-col gap-2">
+            <div className="
+            mt-5
+    flex
+    flex-row
+    flex-wrap
+    gap-2
+    md:flex-col
+">
                 {days.map((day) => (
                     <button
                         key={day}
